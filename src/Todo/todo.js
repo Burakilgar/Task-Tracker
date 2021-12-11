@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./todo.css";
 
 const Todo = ({ todo, index, markTodo, removeTodo }) => {
@@ -11,12 +11,8 @@ const Todo = ({ todo, index, markTodo, removeTodo }) => {
         <br />
       </span>
       <div>
-        <button variant="outline-success" onClick={() => markTodo(index)}>
-          ✓
-        </button>{" "}
-        <button variant="outline-danger" onClick={() => removeTodo(index)}>
-          ✕
-        </button>
+        <button onClick={() => markTodo(index)}>✓</button>{" "}
+        <button onClick={() => removeTodo(index)}>✕</button>
       </div>
     </div>
   );
