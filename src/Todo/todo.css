@@ -1,0 +1,24 @@
+.todo {
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+}
+span {
+  margin: 1vh 0;
+  display: inline-block;
+  width: 90%;
+  /* border: violet solid; */
+  padding: 0 1vw;
+}
+.todo button {
+  width: 2.5vw;
+  height: 4vh;
+  /* background-color: blue; */
+}
+.todo div {
+  display: flex;
+  align-items: center;
+}
